@@ -1,0 +1,10 @@
+dist
+coverage
+node_modules
+package-lock.json
+playwright-report
+test-results
+
+# Docs are hand-authored; Prettier's table padding and hard-wrapping create churn
+# in files that are reviewed as prose rather than code.
+*.md

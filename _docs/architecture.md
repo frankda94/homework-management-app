@@ -344,3 +344,5 @@ Voice is tested through a stub `TranscriptionProvider`. No test depends on real 
 | 2026-10-27 | Default categories | `work`, `personal`, `home`, `errands`, `health`, `learning`, `admin`, `other` |
 | 2026-10-27 | Voice provider | Web Speech API only; `TranscriptionProvider` boundary retained for a later Whisper adapter |
 | 2026-10-27 | Multi-line paste | Saved as one task, newlines preserved, no split prompt |
+| 2026-10-28 | Scaffold tooling | React 19 + Vite 8 + Vitest 5; one `tsconfig.json` (`strict`, `noEmit`) covering `src` and the Vite/Vitest configs; jsdom with explicit Vitest imports (`globals: false`); `npm run test` is a single run |
+| 2026-10-28 | Prettier scope | Code and config only; `*.md` is ignored in `.prettierignore` because table padding and hard-wrapping churn docs that are reviewed as prose |
